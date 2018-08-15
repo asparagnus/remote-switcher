@@ -71,6 +71,10 @@ input[type="text"] {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
+.red {
+    color: #E6399B;
+}
+
 input[type="text"]:visited,
 input[type="text"]:focus,
 select {
