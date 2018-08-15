@@ -83,15 +83,13 @@ select {
 #net_mask:hover,
 #gw:hover,
 #security_code:hover,
-.btn_a:hover,
-.btn_b:hover,
-.btn_c:hover,
-.btn_d:hover,
+.btn-select:hover,
+.btn-d:hover,
 .btn:hover {
     box-shadow: 0 0 20px rgba(57, 204, 148, 0.5);
 }
 
-.btn_a, .btn_b, .btn_c, .btn_d {
+.btn-select {
     box-sizing: border-box;
     margin: 0;
     font-size: 18px;
