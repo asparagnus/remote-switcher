@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap-form">
+    <h1 class="capture">switcher setup</h1>
+
+    <form action="#" method="get" autocomplete="on">
+        <div class="wrap-field">
+            <h2 class="legend">network</h2>
+            <div>
+                <label for="sess_id" class="label">sess id:</label>
+                <input id="sess_id" name="sess" required="required" type="text">
+            </div>
+            <div>
+                <label for="access_key" class="label">access key</label>
+                <input id="access_key" name="access" required="required" type="text">
+            </div>
+            <div>
+                <label for="ip_addkeys" class="label">ip addkeys</label>
+                <input id="ip_addkeys" name="addkeys" required="required" type="text">
+            </div>
+            <div>
+                <label for="net_mask" class="label">network mask</label>
+                <input id="net_mask" name="mask" required="required" type="text">
+            </div>
+            <div>
+                <label for="gw" class="label">gate way</label>
+                <input id="gw" name="gw" required="required" type="text">
+            </div>
+            <div>
+                <label for="security_code" class="label">security code</label>
+                <input id="security_code" name="security" required="required" type="text">
+            </div>
+        </div>
+
+        <div class="wrap-field">
+            <h2 class="legend">remote control</h2>
+
+            <p class="label">A:</p>
+            <div>
+            <select name="A" class="btn_a">
+                <option value="CHANEL 1">CHANEL 1</option>
+                <option value="CHANEL 2">CHANEL 2</option>
+                <option value="CHANEL 2">CHANEL 2</option>
+                <option value="CHANEL 2">CHANEL 2</option>
+            </select>
+            </div>
+            <p class="label">B:</p>
+            <div>
+            <select name="B" class="btn_b">
+                <option value="CHANEL 1">CHANEL 1</option>
+                <option value="CHANEL 2">CHANEL 2</option>
+                <option value="CHANEL 2">CHANEL 3</option>
+                <option value="CHANEL 2">CHANEL 4</option>
+            </select>
+            </div>
+            <p class="label">C:</p>
+            <div>
+            <select name="C" class="btn_c">
+                <option value="CHANEL 1">CHANEL 1</option>
+                <option value="CHANEL 2">CHANEL 2</option>
+                <option value="CHANEL 2">CHANEL 3</option>
+                <option value="CHANEL 2">CHANEL 4</option>
+            </select>
+            </div>
+
+            <div>
+            <label for="btn_d" class="label">d:</label>
+            <input id="btn_d" name="btn_d" type="text" class="btn_d">
+            </div>
+        </div>
+
+        <div class="wrap-btn">
+        <button class="btn" type="submit" value="SAVE">SAVE</button>
+        <button class="btn" type="submit" value="REBOOT">REBOOT</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
