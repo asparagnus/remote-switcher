@@ -15,27 +15,27 @@
             <h2 class="legend">network</h2>
             <div>
                 <label for="sess_id" class="label"><span class="red">*</span>&ensp;sess id:</label>
-                <input id="sess_id" name="sess_id" required="required" type="text">
+                <input id="sess_id" name="sess_id" required="required" type="text" value="{sess_id}">
             </div>
             <div>
                 <label for="access_key" class="label">access key</label>
-                <input id="access_key" name="access_key" type="text">
+                <input id="access_key" name="access_key" type="text" value="{access_key}">
             </div>
             <div>
                 <label for="ip_addkeys" class="label"><span class="red">*</span>&ensp;ip addkeys</label>
-                <input id="ip_addkeys" name="ip_addkeys" required="required" type="text">
+                <input id="ip_addkeys" name="ip_addkeys" required="required" type="text" value="{ip_addkeys}">
             </div>
             <div>
                 <label for="net_mask" class="label"><span class="red">*</span>&ensp;network mask</label>
-                <input id="net_mask" name="net_mask" required="required" type="text">
+                <input id="net_mask" name="net_mask" required="required" type="text" value="{net_mask}">
             </div>
             <div>
                 <label for="gw" class="label">gate way</label>
-                <input id="gw" name="gw" type="text">
+                <input id="gw" name="gw" type="text" value="{gw}">
             </div>
             <div>
                 <label for="security_code" class="label"><span class="red">*</span>&ensp;security code</label>
-                <input id="security_code" name="security_code" required="required" type="text">
+                <input id="security_code" name="security_code" required="required" type="text" value="{security_code}">
             </div>
         </div>
 
@@ -44,35 +44,43 @@
 
             <p class="label">A:</p>
             <div>
-            <select id="btn_a" name="btn_a" class="btn-select">
-                <option value="1">CHANEL 1</option>
-                <option value="2">CHANEL 2</option>
-                <option value="3">CHANEL 3</option>
-                <option value="4">CHANEL 4</option>
-            </select>
+                <select id="btn_a" name="btn_a" class="btn-select">
+                    <option value="0" {btn_a_0}>NOT USED</option>
+                    <option value="1" {btn_a_1}>CHANEL 1</option>
+                    <option value="2" {btn_a_2} >CHANEL 2</option>
+                    <option value="3" {btn_a_3}>CHANEL 3</option>
+                    <option value="4" {btn_a_4}>CHANEL 4</option>
+                </select>
             </div>
             <p class="label">B:</p>
             <div>
             <select id="btn_b" name="btn_b" class="btn-select">
-                <option value="1">CHANEL 1</option>
-                <option value="2">CHANEL 2</option>
-                <option value="3">CHANEL 3</option>
-                <option value="4">CHANEL 4</option>
+                <option value="0" {btn_b_0}>NOT USED</option>
+                <option value="1" {btn_b_1}>CHANEL 1</option>
+                <option value="2" {btn_b_2} >CHANEL 2</option>
+                <option value="3" {btn_b_3}>CHANEL 3</option>
+                <option value="4" {btn_b_4}>CHANEL 4</option>
             </select>
             </div>
             <p class="label">C:</p>
             <div>
             <select id="btn_c" name="btn_c" class="btn-select">
-                <option value="1">CHANEL 1</option>
-                <option value="2">CHANEL 2</option>
-                <option value="3">CHANEL 3</option>
-                <option value="4">CHANEL 4</option>
+                <option value="0" {btn_c_0}>NOT USED</option>
+                <option value="1" {btn_c_1}>CHANEL 1</option>
+                <option value="2" {btn_c_2} >CHANEL 2</option>
+                <option value="3" {btn_c_3}>CHANEL 3</option>
+                <option value="4" {btn_c_4}>CHANEL 4</option>
             </select>
             </div>
-
+            <p class="label">D:</p>
             <div>
-            <label for="btn_d" class="label">d:</label>
-            <input id="btn_d" name="btn_d" type="text" class="btn-d">
+                <select id="btn_d" name="btn_d" class="btn-select">
+                    <option value="0" {btn_d_0}>NOT USED</option>
+                    <option value="1" {btn_d_1}>CHANEL 1</option>
+                    <option value="2" {btn_d_2} >CHANEL 2</option>
+                    <option value="3" {btn_d_3}>CHANEL 3</option>
+                    <option value="4" {btn_d_4}>CHANEL 4</option>
+                </select>
             </div>
         </div>
 

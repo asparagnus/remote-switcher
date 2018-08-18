@@ -1,0 +1,9 @@
+sess_id
+access_key
+ip_addkeys
+net_mask
+gw
+security_code
+btn_a
+btn_b
+btn_c
